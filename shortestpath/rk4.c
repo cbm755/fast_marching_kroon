@@ -130,7 +130,7 @@ bool RK4STEP_2D(double *gradientArray, int *gradientArraySize, double *startPoin
     double k1[2], k2[2], k3[2], k4[2];
     double tempPoint[2];
     double tempnorm;
-    //double D[2],dl;
+    /*double D[2],dl;*/
     
    /*Calculate k1 */
     interpgrad2d(k1, gradientArray, gradientArraySize, startPoint);
